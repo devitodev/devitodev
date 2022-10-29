@@ -1,21 +1,61 @@
+* {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
 body {
     margin: 0;
     padding: 0;
     height: 100vh;
 }
+
 .hero-image {
-   background-image: url(./images/background.jpg) ;
+   background-image: 
+   linear-gradient(rgba(0,0,0,0.3), 
+   rgba(0,0,0,0.3)), 
+   url(./images/background.jpg) ;
+   background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   position: relative;
-   height: 100vh;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
 }
 
-.hero img {
-    width: auto;
-    height: auto;
-    max-width: 400px;
-    max-height: 400px;
+.hero-text {
+    color: white;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.hero-text h1 p {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
 }
 
 /* Photo by Photo by Tetyana Kovyrina: https://www.pexels.com/photo/japanese-lilac-background-12574235/ */
+/* Credit to Next Coding @YouTube.com for hero tutoria assistance */
+
+
+
