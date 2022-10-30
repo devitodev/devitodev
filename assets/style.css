@@ -63,6 +63,10 @@ body {
     color: white;
 }
 
+.navbar li a:hover {
+    cursor:pointer;
+}
+
 .aboutmebox {
     color: black;
     background-color: ghostwhite;
