@@ -1,7 +1,6 @@
 * {
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Mono', monospace;
-    color: white;
 }
 
 /* Font provided by Google fonts */
@@ -59,11 +58,25 @@ body {
     text-decoration: none;
 }
 
+.navbar li a:visited {
+    color: white;
+}
+
 .aboutmebox {
     color: black;
     background-color: ghostwhite;
+    opacity: .8;
     border-radius: 15px;
     margin: 150px;
+}
+
+.aboutmebox h2, p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.mystory {
+    margin: auto;
 }
 
 /* Photo by Photo by Tetyana Kovyrina: https://www.pexels.com/photo/japanese-lilac-background-12574235/ */
@@ -93,7 +106,7 @@ body {
         background-size: auto;
     }
 
-    .herotextparagraph {
+    .subheadlineindex {
         margin-top: 15%;
         margin-bottom: 15%;
 
