@@ -53,9 +53,13 @@ body {
     list-style-type: none;
 }
 
+/* Thank you to user Manwal on StackOverflow for assistance with the vertical-divider */
+
 .navbar li {
     color: white;
-    margin-left: 20px;
+    margin-left: none;
+    border-right:solid 15px ghostwhite;
+    padding: 5%;
 }
 
 .navbar li a {
@@ -109,7 +113,7 @@ body {
 }
 
 /* Photo by Tetyana Kovyrina: https://www.pexels.com/photo/japanese-lilac-background-12574235/ */
-/* Credit to Next Coding @YouTube.com for hero tutoria assistance */
+/* Credit to Next Coding @YouTube.com for hero tutorial assistance */
 
 @media screen and (max-width: 1092px) {
     .navbar, .aboutmebox {
