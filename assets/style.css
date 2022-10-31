@@ -1,3 +1,7 @@
+:root {
+    --roundedcorner:15px;
+    }
+
 * {
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Mono', monospace;
@@ -69,6 +73,7 @@ body {
 
 .aboutmebox {
     color: black;
+    display: flex;
     background-color: ghostwhite;
     opacity: .8;
     border-radius: 15px;
@@ -87,6 +92,15 @@ body {
     display: inline-flex;
     width: 100%;
     margin-left: 45%;
+}
+
+.drewpic {
+  height:auto;  
+  background-color: ghostwhite;
+  border-radius: var(--roundedcorner);
+  display: flex;
+  width: 90%;
+  margin-left: none;
 }
 
 /* Photo by Photo by Tetyana Kovyrina: https://www.pexels.com/photo/japanese-lilac-background-12574235/ */
@@ -136,5 +150,8 @@ body {
         color: black;
     }
    
+    .drewpic {
+        margin-left: 5%;
+    }
      
 }
