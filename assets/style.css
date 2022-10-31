@@ -86,6 +86,17 @@ body {
     margin-bottom: 100px;
 }
 
+.contentbox {
+    color: black;
+    display: flex;
+    background-color: ghostwhite;
+    opacity: .8;
+    border-radius: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+}
+
 .aboutmebox h2, p {
     margin-left: 5%;
     margin-right: 5%;
@@ -116,24 +127,30 @@ body {
 /* Credit to Next Coding @YouTube.com for hero tutorial assistance */
 
 @media screen and (max-width: 1092px) {
-    .navbar, .aboutmebox {
+    .aboutmebox, .contentbox {
+    font-size: 90%;
+    border-radius: 15px;
+    width: 60%;
+    }
+
+    .navbar {
+        margin-right: 170px;
         font-size: 90%;
-        margin-right: 75px;
     }
 
     .drewpic {
        height: 100%;
-       width: 190%;
+       width: 300%;
     }
 
-    .aboutmebox h2 {
+    .aboutmebox h2, .contentbox h2 {
         color: black;
         margin-right: 10%;
     }
 }
 
 @media screen and (max-width: 700px) {
-    .navbar, .aboutmebox {
+    .navbar, .aboutmebox, .contentbox {
         font-size: 120%;
         display: flex;
         flex-direction: column;
@@ -144,9 +161,13 @@ body {
         background-size: auto;
       }
 
-    .aboutmebox {
+    .aboutmebox, .contentbox {
         margin-top: 15%;
         margin-right: 5%;
+    }
+
+    .aboutmebox {
+        background-color: none;
     }
     
     .hero-image {
@@ -175,6 +196,13 @@ body {
         width: 70%;
         display: flex;
         justify-content: center;
+    }
+
+    .navbar li {
+        color: white;
+        margin-left: none;
+        border-right: none;
+        padding: none;
     }
      
 }
