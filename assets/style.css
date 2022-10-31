@@ -88,6 +88,7 @@ body {
     margin-left: 150px;
     margin-right: 150px;
     margin-bottom: 100px;
+    align-items: center;
 }
 
 .contentbox {
@@ -137,6 +138,9 @@ body {
 /* Credit to Next Coding @YouTube.com for hero tutorial assistance */
 
 @media screen and (max-width: 1092px) {
+    .hero-image {
+        height: 200%;
+    }
     .aboutmebox, .contentbox {
     font-size: 90%;
     border-radius: 15px;
@@ -149,17 +153,27 @@ body {
     }
 
     .drewpic {
-       height: 100%;
-       width: 300%;
+       width: 0
     }
 
-    .aboutmebox h2, .contentbox h2 {
+    .aboutmebox {
+        background-color: ghostwhite;
+        color:black;
+    }
+
+    .aboutmebox h2 {
         color: black;
         margin-right: 10%;
     }
+
+    
 }
 
 @media screen and (max-width: 700px) {
+    .hero-image {
+        height: 100%;
+        background-size: auto;
+    }
     .navbar, .aboutmebox, .contentbox {
         font-size: 120%;
         display: flex;
@@ -179,13 +193,17 @@ body {
         align-items: center;
     }
 
-    .aboutmebox, .contentbox {
+    .aboutmebox {
         margin-top: 15%;
         margin-right: 5%;
     }
-    
-    .hero-image {
-        background-size: auto;
+
+    .contentbox {
+        margin-bottom: 25%;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 10%;
+        padding: 10%;
     }
 
     .subheadlineindex {
