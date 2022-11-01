@@ -139,6 +139,20 @@ body {
 
 /* Photo by Tetyana Kovyrina: https://www.pexels.com/photo/japanese-lilac-background-12574235/ */
 /* Credit to Next Coding @YouTube.com for hero tutorial assistance */
+@media screen and (max-width: 1901px) {
+    .aboutmebox, .contentbox {
+        padding-left: 20%;
+        height: 20%;
+        width: 20%;
+        display: flex;
+    }
+
+    /* Attempting to fix content moving right on 1900px +
+    .aboutmebox h2, .aboutmebox p, .contentbox h2, .contentbox p
+    {
+        display: flex;
+    } */
+}
 
 @media screen and (max-width: 1092px) {
     .hero-image {
