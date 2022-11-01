@@ -15,6 +15,16 @@ body {
     height: 100vh;
 }
 
+.header {
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
 .hero-image {
    background-image: 
    linear-gradient(rgba(0,0,0,0.3), 
@@ -125,7 +135,7 @@ body {
   border-radius: var(--roundedcorner);
   display: flex;
   width: 90%;
-  margin-left: none;
+  /* margin-left: none; */
 }
 
 .newyorkh2 {
